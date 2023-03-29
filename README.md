@@ -1,3 +1,26 @@
+This code serves as a hangman game for the CS 125 final project. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # cs125project
 #include <stdio.h>
 #include <stdlib.h>
