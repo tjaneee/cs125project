@@ -9,7 +9,11 @@
 #define MAX_GUESSES 6
 #define WORD_LIST_SIZE 10
 
-char *word_list[WORD_LIST_SIZE] = {"apple", "banana", "cherry", "orange", "pineapple", "grape", "strawberry", "kiwi", "mango", "papaya"};
+char *word_list_easy[WORD_LIST_SIZE] = {"fly", "age", "late", "mate", "rate", "bait", "eat", "mean", "dog", "saw"};
+
+char *word_list_medium[WORD_LIST_SIZE] = {"apple", "banana", "cherry", "break", "pineapple", "grape", "strawberry", "kiwi", "mango", "papaya"};
+
+char *word_list_hard[WORD_LIST_SIZE] = {"utilitarianism", "totaltitarionism", "filialpiety", "orange", "conciencous", "jazz", "dynasty", "cabinetworker", "facilitations", "iatrogenicity"};
 
 int main() {
     // Seed the random number generator
